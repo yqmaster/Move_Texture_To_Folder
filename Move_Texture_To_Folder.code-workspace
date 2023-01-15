@@ -1,0 +1,66 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "files.autoSave": "off",
+        "files.encoding": "utf8",
+        "files.eol": "\n",
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/*.js": true,
+            "**/*.js.map": true,
+            "**/*.d.ts": true,
+            "**/*.d.ts.map": true
+        },
+        "typescript.tsc.autoDetect": "on",
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+        "cSpell.words": [
+
+        ],
+        "eslint.validate": ["typescript"],
+        "importSorter.generalConfiguration.sortOnBeforeSave": true,
+        "importSorter.importStringConfiguration.quoteMark": "double",
+        "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "words",
+        "importSorter.sortConfiguration.removeUnusedDefaultImports": true,
+        "importSorter.sortConfiguration.removeUnusedImports": true,
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            // 代码规范相关
+            "dbaeumer.vscode-eslint", // ESLint 语法检查插件
+            "esbenp.prettier-vscode", // Prettier 语法格式化插件
+            "streetsidesoftware.code-spell-checker", // 拼写检查插件
+            "visualstudioexptteam.vscodeintellicode", // 自动补全插件
+            "mike-co.import-sorter", // import 排序插件
+
+            // Git 相关
+            "mhutchie.git-graph", // Git 图形化管理插件（用于替代SourceTree）
+            "eamodio.gitlens", // 强化自带 Git 源码管理插件能力
+
+            // KToolkit
+            "KingsoftGames.ktoolkit-vscode"
+        ]
+    },
+}

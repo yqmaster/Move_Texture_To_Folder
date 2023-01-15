@@ -24,6 +24,7 @@
         "yarn": "^1.22.19"
     },
     "scripts": {
+        "init-project": "npm install",
         "watch": "tsc -b ./packages -w",
         "rewatch": "node ./scripts/regenerate-ts-project && yarn watch"
     }
