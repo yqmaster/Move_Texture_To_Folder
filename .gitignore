@@ -1,0 +1,11 @@
+# module 依赖不入库
+node_modules
+
+# ts 增量编译文件
+**/tsconfig.tsbuildinfo
+
+## ts 编译产物不入库
+**/dist
+
+## 工作文件不入库
+**/files

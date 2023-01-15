@@ -1,0 +1,4 @@
+{
+    "name": "packages",
+    "main": "dist/Main.js"
+}
