@@ -1,10 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
@@ -16,12 +16,7 @@
         "files.trimFinalNewlines": true,
         "files.trimTrailingWhitespace": true,
         "files.exclude": {
-            "**/.git": true,
-            "**/.svn": true,
-            "**/.hg": true,
-            "**/CVS": true,
-            "**/.DS_Store": true,
-            "**/Thumbs.db": true
+            "**/.git": true
         },
         "search.exclude": {
             "**/node_modules": true,
@@ -33,9 +28,7 @@
         "typescript.tsc.autoDetect": "on",
         "typescript.tsdk": "node_modules/typescript/lib",
         "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-        "cSpell.words": [
-
-        ],
+        "cSpell.words": ["dbaeumer", "eamodio", "esbenp", "mhutchie", "rewatch", "visualstudioexptteam", "vscodeintellicode", "vsintellicode"],
         "eslint.validate": ["typescript"],
         "importSorter.generalConfiguration.sortOnBeforeSave": true,
         "importSorter.importStringConfiguration.quoteMark": "double",
@@ -56,11 +49,7 @@
             "mike-co.import-sorter", // import 排序插件
 
             // Git 相关
-            "mhutchie.git-graph", // Git 图形化管理插件（用于替代SourceTree）
-            "eamodio.gitlens", // 强化自带 Git 源码管理插件能力
-
-            // KToolkit
-            "KingsoftGames.ktoolkit-vscode"
+            "mhutchie.git-graph" // Git 图形化管理插件（用于替代SourceTree）
         ]
-    },
+    }
 }
