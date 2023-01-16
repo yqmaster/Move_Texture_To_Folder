@@ -1,14 +1,16 @@
-export const FILES_PATH = "./files";
-export const EXTRA_PATH = "./extra";
+export const SOURCE_PATH = "./files";
+export const OUTPUT_PATH = "./output";
+
+export const UNKNOWN = "unknown";
 
 export const FILE_NAME_SPLIT = "_";
-export const UNKNOWN_GROUP_NAME = "unknown";
+export const FILE_TYPE_SPLIT = ".";
+export const FOLDER_SPLIT = "\\";
 
 export enum Enum_FileType {
     None = "",
     Texture = "T",
     Mesh = "SM",
-    UASSET = ".uasset",
 }
 
 export const FILE_TYPE_MAP: Map<string, Enum_FileType> = new Map([
@@ -16,10 +18,6 @@ export const FILE_TYPE_MAP: Map<string, Enum_FileType> = new Map([
     ["fbx", Enum_FileType.Mesh],
 ]);
 
-export class Result {
-    public fileInfoMap: Map<string, FileInfo[]> = new Map();
-}
-
 export class FileInfo {
-    constructor(public groupName: string, public oldName: string, public newName: string) {}
+    constructor(public groupName: string, public fileName: string, public fileType: Enum_FileType) {}
 }

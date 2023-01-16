@@ -28,7 +28,17 @@
         "typescript.tsc.autoDetect": "on",
         "typescript.tsdk": "node_modules/typescript/lib",
         "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-        "cSpell.words": ["dbaeumer", "eamodio", "esbenp", "mhutchie", "rewatch", "visualstudioexptteam", "vscodeintellicode", "vsintellicode"],
+        "cSpell.words": [
+            "dbaeumer",
+            "eamodio",
+            "esbenp",
+            "mhutchie",
+            "rewatch",
+            "UASSET",
+            "visualstudioexptteam",
+            "vscodeintellicode",
+            "vsintellicode"
+        ],
         "eslint.validate": ["typescript"],
         "importSorter.generalConfiguration.sortOnBeforeSave": true,
         "importSorter.importStringConfiguration.quoteMark": "double",
