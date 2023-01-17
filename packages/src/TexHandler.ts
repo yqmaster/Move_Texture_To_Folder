@@ -66,8 +66,8 @@ export class TexHandler {
             if (fileType !== Enum_FileType.None) {
                 extraName = String(fileType) + FILE_NAME_SPLIT;
             }
-            // fs.move(this.sourcePath + fileInfo.fileName, newDirPath + extraName + fileInfo.fileName);
-            console.log(fileInfo.fileName, "======>", newDirPath + extraName + fileInfo.fileName);
+            //fs.move(this.sourcePath + fileInfo.fileName, newDirPath + extraName + fileInfo.fileName);
+            console.log("======>", newDirPath + extraName + fileInfo.fileName);
         });
     }
 }

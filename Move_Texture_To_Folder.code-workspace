@@ -61,5 +61,9 @@
             // Git 相关
             "mhutchie.git-graph" // Git 图形化管理插件（用于替代SourceTree）
         ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": []
     }
 }

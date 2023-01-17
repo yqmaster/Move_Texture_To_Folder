@@ -8,4 +8,5 @@ node_modules
 **/dist
 
 ## 工作文件不入库
-**/files
+**/files/*
+**/output/*
